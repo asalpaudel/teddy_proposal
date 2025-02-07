@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Will You Be My Valentine? 💘</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
 </head>
 <body>
     <div class="envelope-container" onclick="openEnvelope()">
         <p class="envelope-text">Click here to open your envelope 💌</p>
-        <img src="/assets/envelope.jpg" alt="Envelope" class="envelope-img">
+        <img src="envelope.jpg" alt="Envelope" class="envelope-img">
         <div class="envelope"></div>
     </div>
     <div class="card-container">
         <div class="card" id="card">
-            <img src="assets/tenor.gif" alt="Tenor" id="tenor-img">
+            <img src="tenor.gif" alt="Tenor" id="tenor-img">
             
             <div class="hearts">💖💘💝</div>
             <p class="will_you" id="question">Will you be my Valentine? 🥰💞</p>
@@ -33,7 +33,6 @@
         </div>
     </div>
     <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-    <script src="/assets/script.js"></script>
     <script>
         function openEnvelope() {
             document.querySelector('.envelope-container').style.opacity = '0';
