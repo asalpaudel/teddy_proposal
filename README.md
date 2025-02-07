@@ -30,11 +30,9 @@ A fun, interactive, and nerdy way to propose to your Valentine! This project fea
 ## 📂 Project Structure
 ```
 📂 nerdy-valentine-proposal
- ├── 📂 assets
- │   ├── envelope.jpg  # Envelope image
- │   ├── tenor.gif     # Animated love GIF
- │   ├── style.css     # Styling file
- │   ├── script.js     # JavaScript interactions
+ ├── envelope.jpg  # Envelope image
+ ├── tenor.gif     # Animated love GIF
+ ├── style.css     # Styling file
  ├── index.html        # Main HTML file
  ├── README.md         # Project documentation
 ```
