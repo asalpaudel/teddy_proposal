@@ -13,8 +13,6 @@ A fun, interactive, and nerdy way to propose to your Valentine! This project fea
 - 🎉 **GIF & Message Reveal** – A sweet reaction when "YES" is clicked.
 - 🎨 **CSS Animations** – Smooth effects for a delightful experience.
 
-## 🚀 Live Demo
-[🔗 Try it Now!](#) *(Replace with actual live link)*
 
 ## 🛠️ Installation & Usage
 1. Clone the repository:
