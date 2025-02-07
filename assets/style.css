@@ -1,0 +1,148 @@
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff0f5;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+/* Envelope Container */
+.envelope-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    animation: popUpDown 1.5s infinite alternate ease-in-out;
+}
+
+/* Envelope Animation */
+@keyframes popUpDown {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.envelope-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #d63384;
+    margin-bottom: 15px;
+    text-align: center;
+    animation: fadeIn 1.5s infinite alternate;
+}
+.will_you{
+    font-size: 1.8rem;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0.6; }
+    100% { opacity: 1; }
+}
+
+/* Bigger Envelope Image */
+.envelope {
+    width: 450px;  /* Increased Width */
+    height: 300px; /* Increased Height */
+    background: url('assets/envelope.jpg') no-repeat center center;
+    background-size: contain;
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Card (Initially Hidden) */
+.card-container {
+    display: none;
+    text-align: center;
+    animation: popCard 0.8s ease-in-out forwards;
+}
+
+@keyframes popCard {
+    from { transform: scale(0.5); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.card {
+    background-color: #ffccd5;
+    padding: 50px;
+    border-radius: 40px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 900px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hearts {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    animation: floatingHearts 2s infinite alternate;
+}
+
+@keyframes floatingHearts {
+    0% { transform: translateX(-50%) translateY(0); }
+    100% { transform: translateX(-50%) translateY(-10px); }
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.btn-love, .btn-no {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-love {
+    background-color: #ff69b4;
+    color: white;
+}
+
+.btn-love:hover {
+    background-color: #ff1493;
+    transform: scale(1.1);
+}
+
+.btn-no {
+    background-color: #f8d7da;
+    color: #d63384;
+}
+
+.btn-no:hover {
+    background-color: #f8c3c7;
+    transform: scale(1.1);
+}
+.gif-container, .love-message {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.love-message {
+    font-size: 1.8rem;
+    color: #d63384;
+    font-weight: bold;
+}
