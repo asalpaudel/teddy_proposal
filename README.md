@@ -19,7 +19,7 @@ A fun, interactive, and nerdy way to propose to your Valentine! This project fea
 ## 🛠️ Installation & Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/nerdy-valentine-proposal.git
+   git clone https://github.com/asalpaudel/teddy_proposal.git
    ```
 2. Navigate to the project folder:
    ```sh
@@ -29,7 +29,7 @@ A fun, interactive, and nerdy way to propose to your Valentine! This project fea
 
 ## 📂 Project Structure
 ```
-📂 nerdy-valentine-proposal
+📂 teddy_proposal
  ├── envelope.jpg  # Envelope image
  ├── tenor.gif     # Animated love GIF
  ├── style.css     # Styling file
